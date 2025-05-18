@@ -10,6 +10,8 @@ This project involves the implementation from scratch of two types of neural net
 
 ## 📊 Results Summary
 
-The results from the experiments on simple functions show that the MLP tends to be faster and generally more accurate than the RBF-based network. However, for certain types of functions, such as sinusoidal waves, the RBF network performs better, likely due to its localized activation behavior. When applied to the dynamic system data, both networks produce similar results, indicating that they are equally capable of capturing the underlying system dynamics, particularly in the context of friction modeling.
+The results from the experiments on simple functions show that the MLP tends to be faster and generally more accurate than the RBF-based network. However, for certain types of functions, such as sinusoidal waves, the RBF network performs better, likely due to its localized activation behavior. When applied to the dynamic system data, both networks produce similar results, indicating that they are equally capable of capturing the underlying system dynamics, particularly in the context of friction modeling. Bellow you can see the estimation of the dynamical system by the neural network over time : 
+
+![im](dynamical_sytem_identification.png)
 
 
